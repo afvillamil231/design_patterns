@@ -4,10 +4,18 @@ desing_patterns is a set of examples on how to use some coding patterns with C++
 ## Building
 This project is built with CMake 
 
+```shell
+mkdir build/
+cd build/
+cmake ..
+make
+```
+All the examples executables are stored at build/bin/
+
 ## Supported Patterns
 
-* [Factory pattern](#Factory)
-* [Variadic Pattern](#getting-started)
+* [Factory pattern](Factory)
+  - [Simple Factory](Factory/SimpleFactory)
 
 ## Resources
 

@@ -1,0 +1,9 @@
+# SimpleFactory
+
+This factory can create objects depending on an input parameter. It is used to instantiate objects on demand. 
+Sometimes, we want to create objects depending on an input parameter or simply we have a group of objects whose 
+creation algorithm is complex. In those cases, a `Factory` can help to handle the creation of every object. 
+
+In this example, we want to create a robot depending of its type. In addition, we want the Factory to handle a 
+unique ID per robot. Of course this could be handled in the main function, however it is better to let the Factory
+take care of the creation of the robot and the uniqueness of the ID.
